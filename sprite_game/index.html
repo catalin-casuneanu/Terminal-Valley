@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Terminal Valley</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Overworld styles -->
+    <link href="/styles/global.css" type="text/css" rel="stylesheet" />
+    <link href="/styles/TextMessage.css" type="text/css" rel="stylesheet" />
+    <link href="/styles/SceneTransition.css" type="text/css" rel="stylesheet" />
+    <link href="/styles/KeyboardMenu.css" type="text/css" rel="stylesheet" />
+    <link href="/styles/Hud.css" type="text/css" rel="stylesheet" />
+    <link href="/styles/TitleScreen.css" type="text/css" rel="stylesheet" />
+    <!-- Battle css -->
+    <link href="/styles/Battle.css" type="text/css" rel="stylesheet" />
+    <link href="/styles/Combatant.css" type="text/css" rel="stylesheet" />
+    <link href="/styles/SubmissionMenu.css" type="text/css" rel="stylesheet" />
+    <link href="/styles/Team.css" type="text/css" rel="stylesheet" />
+    <link href="/styles/Menus.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="game-container">
+      <canvas class="game-canvas" width="352" height="198"></canvas>
+    </div>
+    <p class="how-to-play">Use Arrow Keys to move. Enter to prompt/talk.</p>
+
+    <script src="/utils.js"></script>
+
+    <!-- Content -->
+    <script src="/Content/pokeLangs.js"></script>
+    <script src="/Content/actions.js"></script>
+    <script src="/Content/enemies.js"></script>
+
+    <!-- Scripts -->
+    <script src="/Movement/DirectionInput.js"></script>
+    <script src="/Overworld/Overworld.js"></script>
+    <script src="/Models/GameObject.js"></script>
+    <script src="/Models/Person.js"></script>
+    <script src="/Models/Sprite.js"></script>
+    <script src="/Overworld/OverworldMap.js"></script>
+    <script src="/Overworld/OverworldEvent.js"></script>
+    <script src="/Message/TextMessage.js"></script>
+    <script src="/Movement/KeyPressListener.js"></script>
+    <script src="/Message/RevealingText.js"></script>
+    <script src="/SceneTransition.js"></script>
+    <script src="/Movement/KeyboardMenu.js"></script>
+    <script src="/Hud/Hud.js"></script>
+    <script src="/PauseMenu.js"></script>
+    <script src="/Progress.js"></script>
+    <script src="/TitleScreen.js"></script>
+
+    <!-- State -->
+    <script src="/State/PlayerState.js"></script>
+
+    <!-- Battle -->
+    <script src="/Battle/Battle.js"></script>
+    <script src="/Battle/Combatant.js"></script>
+    <script src="/Battle/Team.js"></script>
+    <script src="/Battle/SubmissionMenu.js"></script>
+    <script src="/Battle/ReplacementMenu.js"></script>
+    <script src="/Battle/BattleEvent.js"></script>
+    <script src="/Battle/TurnCycle.js"></script>
+    <script src="/Battle/BattleAnimations.js"></script>
+
+    <script src="/init.js"></script>
+  </body>
+</html>
