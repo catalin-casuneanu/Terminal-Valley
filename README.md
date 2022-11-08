@@ -15,3 +15,4 @@ Turn based rpg game.
 
 ## Future work
 Implementation of sprite animation using canvas api in nuxt.
+Replace the REST with sockets.
